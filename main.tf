@@ -12,6 +12,7 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
+
     organization = "PK-Terraform-Demos"
 
     workspaces {
